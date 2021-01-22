@@ -1,0 +1,37 @@
+<div id="main-wrapper">
+
+    <!-- Header Component -->
+    <app-header></app-header> 
+
+    <!-- Sidebar Component -->
+    <app-sidebar></app-sidebar>
+    
+    <!-- Page Wrapper -->
+    <div class="page-wrapper">
+        <!-- Container fluid  -->
+        <div class="container-fluid">
+            <!-- Bread crumb  -->
+            <app-breadcrumb></app-breadcrumb>
+            <!-- End Bread crumb -->
+
+            <!-- Start Page Content - and my System Routes-->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <router-outlet></router-outlet>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Page Content -->
+        </div>
+        <!-- End Container fluid  -->
+        <!-- Footer -->
+        <footer class="footer">
+            © 2021 AdminPro Angular - Created By 💜&lt;Deko-Dev/>🐼
+        </footer>
+        <!-- End Footer -->
+    </div>
+    <!-- End Page wrapper  -->
+</div>
