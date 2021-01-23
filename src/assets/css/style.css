@@ -761,7 +761,9 @@ Main sidebar
   padding-top: 70px;
   background: #fff;
   -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
-  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08); }
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08); 
+  transition: .5s;
+}
 
 .fix-sidebar .left-sidebar {
   position: fixed; }
@@ -1550,7 +1552,8 @@ ul#themecolors {
   position: absolute;
   right: 0;
   border-top: 1px solid rgba(120, 130, 140, 0.13);
-  background: #ffffff; }
+  background: #ffffff; 
+  text-align: center;}
 
 /*******************
  scrollbar
@@ -5728,7 +5731,8 @@ File: scss
     width: 240px;
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
-    flex-shrink: 0; }
+    flex-shrink: 0; 
+    transition: .5s;}
     .navbar-header .navbar-brand {
       padding-top: 0px; }
   /*This is for the breeadcrumd*/
