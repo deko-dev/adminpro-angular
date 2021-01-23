@@ -12,6 +12,7 @@ const routes: Routes = [
     // path: '/dashboard' PageRouting
     // path: '/auth' AuthRouting
 
+    { path: '', redirectTo: '/dahsboard', pathMatch: 'full' },
     { path: '**', component: Nopage404Component },
 ];
 @NgModule({
